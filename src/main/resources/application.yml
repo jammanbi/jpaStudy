@@ -9,3 +9,7 @@ spring:
   jpa:
     show-sql: true
     database: oracle
+  mvc:
+    view:
+      prefix: /resources/templates/
+      suffix: .html
